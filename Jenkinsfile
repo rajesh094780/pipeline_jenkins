@@ -17,7 +17,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        bat 'echo Test'
+        sh "pwd"
       }
     }
   }
