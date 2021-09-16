@@ -5,12 +5,12 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            bat 'echo  %name%'
+            sh "pwd"
           }
         }
         stage('Build1') {
           steps {
-            bat 'echo Build'
+            sh "pwd"
           }
         }
       }
